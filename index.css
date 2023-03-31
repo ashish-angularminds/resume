@@ -3,8 +3,29 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 @media print {
+
+    body{
+        font-size: 28px !important;
+    }
     .main-body{
         width: 100% !important;
+    }
+
+    .body-gp{
+        flex-direction: column !important;
+    }
+
+    .left-section{
+        width: 100% !important;
+        
+    }
+    .right-section{
+        width: 100% !important;
+        padding: 5px 30px 5px 10px !important;
+    }
+
+    .first-gp, .second-gp, .thrid-gp{
+        border: none !important;
     }
 
 }
